@@ -20,8 +20,12 @@ def student_init():
     stud3 = Student(10615734,"Nick","Rose", 22, list_of_majors[1])
     stud4 = Student(10633211, "Dorian","Freeman", 26, list_of_majors[3])
     stud5 = Student(10655321,"Mary","Jones", 21, list_of_majors[4])
+
+    stud8 = Student(10675891,"Jerry","Benn",21, list_of_majors[3])
+
     stud6 = Student(10628415, "Lynn","Nzouadja-Keundo",19, list_of_majors[1])
-    list_of_active_students.extend([stud1,stud2,stud3,stud4,stud5,stud6])
+
+    list_of_active_students.extend([stud1,stud2,stud3,stud4,stud5,stud6,stud8])
 
 
 #These functions will display the Objects using the __str__ print format defined in the object class
